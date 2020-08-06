@@ -5,42 +5,76 @@ body {
     color: #ffffff;
     letter-spacing: -0.1px;
     margin: 10px;
-}
 
-header {
-    text-decoration: underline;
 }
-
 
 .II,
 .platzi-courses,
-.MSG-image,
+.MSG1-image,
+.MSG2-image,
 .MySqlGest,
 footer,
-header {
+.myHeader,
+.init {
     background: #3d3d40;
     border-color: #606064;
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
+    border-radius: 10px 10px 10px 10px;
 }
 
+.init1,
+.init2,
+.init3,
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.myHeader {
+    width: 2000px;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.init {
+    width: 670px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    border-top-color: #3d3d40;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+footer,
+.UPM,
+.platzi-images,
+.mysqlimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.MSG1-image{
+    margin-left:-10px;
+    margin-right:10px;
+}
 .MySqlGest {
-    width: 680px;
+    width: 930px;
     border-width: 5px;
-    margin-top:20px;
+    margin-top: 20px;
     padding: 1px 1px 1px 10px;
     margin-left: 20px;
 }
 
-.MSG-image {
-    border-width: 2px;
-    margin-left: 42px;
-    margin-right:42px;
-}
 .II,
 .platzi-courses {
-    width: 350px;
+    width: 420px;
     border-width: 1px;
     padding: 1px 1px 1px 10px;
     margin-left: 20px;
@@ -55,9 +89,6 @@ header {
     flex-wrap: wrap;
 }
 
-.UPM{
-    padding:0px 0px 0px 135px;
-}
 /*
     Tipografia
 */
@@ -67,14 +98,15 @@ a {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 h2 {
     font-weight: 400;
-    font-size: 50px;
+    font-size: 40px;
+    font-style:italic;
     margin-bottom: 0px;
     margin-top: 0px;
 }
