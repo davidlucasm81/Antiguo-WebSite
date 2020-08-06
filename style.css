@@ -2,10 +2,10 @@ body {
     font-family: 'Oswald', sans-serif;
     background: #1e1e1e;
     font-weight: 400;
-    color: #ffffff;
+    color: #b6b6b6;
     letter-spacing: -0.1px;
     margin: 10px;
-
+    text-align:center;
 }
 
 .II,
@@ -57,9 +57,10 @@ header,
 }
 
 .footer {
+    text-align:left;
     margin-left: 10px;
     margin-right: 10px;
-    vertical-align:central;
+    vertical-align: central;
 }
 
 .hero {
@@ -78,18 +79,15 @@ header,
 .MySqlGest {
     width: 930px;
     border-width: 1px;
-    margin-top: 20px;
+    margin: 20px;
     padding: 1px 1px 1px 10px;
-    margin-left: 20px;
 }
 
 .II,
-.platzi-courses{
+.platzi-courses {
     width: 420px;
     border-width: 1px;
-    padding: 1px 1px 1px 10px;
-    margin-left: 20px;
-    margin-top:20px;
+    margin: 20px;
 }
 
 
@@ -104,7 +102,7 @@ header,
     margin-right:20px;
 }
 .portafolio{
-    width:150px;
+    width:140px;
 }
 .studies{
     width:130px;
@@ -137,6 +135,39 @@ header,
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
 }
+.UPM img {
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.platzi-images img,
+.II h6{
+    margin-bottom:10px;
+}
+.contact h4 {
+    color: #eeeeee;
+}
+
+.form_email {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    height: 30px;
+    border-radius: 5px;
+    width:220px;
+}
+.email_button {
+    background: transparent;
+    border-radius: 5px;
+    color: #d3d1d1;
+    margin-left: 5px;
+    height: 35px;
+    text-align:center;
+}
+.techItems {
+    margin-top: 20px;
+}
 /*
     Tipografia
 */
@@ -147,7 +178,7 @@ a {
 }
 
 h1 strong {
-    color: #c7c7c7;
+    color: #ffffff;
 }
 
 h1 {
@@ -157,20 +188,23 @@ h1 {
 }
 
 h2 {
+    color: #e5e5e5;
     font-weight: 400;
-    font-size: 40px;
-    font-style:italic;
+    font-size: 35px;
+    font-style: italic;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 h3 {
+    color: #f1f1f1;
     font-weight: 400;
     font-size: 40px;
     margin-bottom: 0px;
 }
 
 h4 {
+    color: #ffffff;
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 0px;
