@@ -13,7 +13,7 @@ body {
 .MSG1-image,
 .MSG2-image,
 .MySqlGest,
-footer,
+.footer,
 .myHeader,
 .hero {
     background: #3d3d40;
@@ -29,10 +29,11 @@ footer,
 .init3,
 header,
 .hero,
-footer,
+.footer,
+footer
 .UPM,
 .platzi-images,
-.mysqlimage {
+.mysqlimage{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -45,7 +46,7 @@ footer,
     margin-left: 10px;
     margin-right: 10px;
 }
-footer {
+.footer {
     width: 1860px;
     margin-left: 10px;
     margin-right: 10px;
