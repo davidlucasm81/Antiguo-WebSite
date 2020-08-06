@@ -8,25 +8,62 @@ body {
 }
 
 header {
-    background: #3d3d40;
-    border-color: #606064;
     text-decoration: underline;
-    color: snow;
-    border-width: 1px;
-    border-style: solid;
 }
 
-footer {
-    color: snow;
+
+.II,
+.platzi-courses,
+.MSG-image,
+.MySqlGest,
+footer,
+header {
     background: #3d3d40;
     border-color: #606064;
-    border-width: 1px;
+    box-sizing: border-box;
     border-style: solid;
+    border-width: 1px;
 }
 
-a{
+.MySqlGest {
+    width: 680px;
+    border-width: 5px;
+    margin-top:20px;
+    padding: 1px 1px 1px 10px;
+    margin-left: 20px;
+}
+
+.MSG-image {
+    border-width: 2px;
+    margin-left: 42px;
+    margin-right:42px;
+}
+.II,
+.platzi-courses {
+    width: 350px;
+    border-width: 1px;
+    padding: 1px 1px 1px 10px;
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+
+.portafolioItems,
+.studiesItems,
+.coursesItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.UPM{
+    padding:0px 0px 0px 135px;
+}
+/*
+    Tipografia
+*/
+a {
     color: #dedede;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
 }
 
 h1 {
@@ -34,62 +71,37 @@ h1 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 h2 {
     font-weight: 400;
     font-size: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 h3 {
     font-weight: 400;
     font-size: 40px;
     margin-bottom: 0px;
 }
+
 h4 {
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 h5 {
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
 h6 {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
-}
-.MySqlGest {
-    width: 960px;
-    background: #3d3d40;
-    border-color: #606064;
-    border-width: 5px;
-    border-style: solid;
-    padding:1px 1px 1px 10px;
-    margin-left:20px;
-}
-
-.MSG-image {
-    background: #3d3d40;
-    border-color: #606064;
-    border-width: 2px;
-    border-style: solid;
-}
-.II,
-.platzi-courses{
-    width: 350px;
-    background: #3d3d40;
-    border-color: #606064;
-    border-width: 1px;
-    border-style: solid;
-    padding: 1px 1px 1px 10px;
-    margin-left: 20px;
-}
-
-.UPM{
-    padding:0px 0px 0px 135px;
 }
