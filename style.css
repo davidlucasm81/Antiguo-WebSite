@@ -1,0 +1,94 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #1e1e1e;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: -0.1px;
+    margin: 10px;
+}
+
+header {
+    background: #3d3d40;
+    border-color: #606064;
+    text-decoration: underline;
+    color: snow;
+    border-width: 1px;
+    border-style: solid;
+}
+
+footer {
+    color: snow;
+    background: #3d3d40;
+    border-color: #606064;
+    border-width: 1px;
+    border-style: solid;
+}
+
+a{
+    color: #dedede;
+    letter-spacing:0.5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h3 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h6 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.MySqlGest {
+    width: 960px;
+    background: #3d3d40;
+    border-color: #606064;
+    border-width: 5px;
+    border-style: solid;
+    padding:1px 1px 1px 10px;
+    margin-left:20px;
+}
+
+.MSG-image {
+    background: #3d3d40;
+    border-color: #606064;
+    border-width: 2px;
+    border-style: solid;
+}
+.II {
+    width: 350px;
+    background: #3d3d40;
+    border-color: #606064;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px 1px 1px 10px;
+    margin-left: 20px;
+}
+
+.UPM{
+    padding:0px 0px 0px 135px;
+}
