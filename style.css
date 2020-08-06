@@ -47,19 +47,19 @@ h3 {
 }
 h4 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 h5 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 h6 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -79,7 +79,8 @@ h6 {
     border-width: 2px;
     border-style: solid;
 }
-.II {
+.II,
+.platzi-courses{
     width: 350px;
     background: #3d3d40;
     border-color: #606064;
