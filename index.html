@@ -11,95 +11,121 @@
 
 <body>
     <header>
-            <img src="myPassion.jpg" class="logo" width="200" h="131" />
         <section class="myHeader">
+            <img src="icono.png" class="logo" width="110" h="110" />
             <nav class="indice">
                 <a href="#Portafolio">Portafolio</a>
                 <a href="#Estudios">Estudios</a>
                 <a href="#Cursos">Cursos</a>
-                <a href="#Contacto">Contacto</a>
+                <a href="#Tecnologias" class="last">Tecnologías</a>
+                <a href="#Contacto" class="last">Contacto</a>
             </nav>
         </section>
+    </header>
+    <div class="space">
         <section class="hero">
             <h1 class="init1">
                 <strong>David Lucas Mora</strong>
             </h1>
             <h1 class="init2">
-                Estudiante de Ingeniería Informática
+                Estudiante de&nbsp<strong>Ingeniería Informática</strong>
             </h1>
             <h2 class="init3">
                 "Aprendiendo cada día"
             </h2>
         </section>
-   
-    </header>
-    <section id="Portafolio" class="portafolio">
-            <h3>Portafolio</h3>
-            <div class="portafolioItems">
-                <article class="MySqlGest">
-                    <h4>MySqlGest</h4>
-                    <h5>A simple MySql manager where you can do queries or update your tables.</h5>
-                    <h6>Java</h6>
-                    <p><strong>Fecha: </strong>04/08/2020</p>
-                    <p><strong>Vista previa:</strong></p>
-                    <div class="mysqlimage">
-                        <img src="SQL1.jpg" class="MSG1-image" />
-                        <img src="SQL2.jpg" class="MSG2-image" width="560" height="450" />
-                    </div>
-                    <p><strong>Puedes verlo <a href="https://github.com/davidlucasm81/MySqlGest" target="_blank">aqui</a></strong></p>
-                </article>
+    </div>
 
-            </div>
+
+    <section id="Portafolio">
+        <h3 class="portafolio">Portafolio</h3>
+        <div class="portafolioItems">
+            <article class="MySqlGest">
+                <h4>MySqlGest</h4>
+                <h5>
+                    Un gestor de MySql donde puedes tanto realizar las consultas que desees, como actualizar la propia base de datos.<br />
+                    Incorpora opciones como consultar el nombre de las tablas de la Base de datos, sus atributos y consultas pasadas.
+                </h5>
+                <h6><strong>Lenguaje:</strong> Java</h6>
+                <p><strong>Fecha: </strong>04/08/2020</p>
+                <p><strong>Vista previa:</strong></p>
+                <div class="mysqlimage">
+                    <img src="SQL1.jpg" class="MSG1-image" />
+                    <img src="SQL2.jpg" class="MSG2-image" width="560" height="450" />
+                </div>
+                <p><strong>Puedes verlo <a href="https://github.com/davidlucasm81/MySqlGest" target="_blank">aqui</a></strong></p>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="Estudios">
+        <h3 class="studies">Estudios</h3>
+        <div class="studiesItems">
+            <article class="II">
+                <div class="UPM">
+                    <a href="https://www.fi.upm.es/?id=gradoingenieriainformatica" target="_blank"> <img src="https://buscatuempleopublico.es/jsjobsdata/data/employer/comp_1119/logo/upm.png" width="73" height="56" alt="Logo UPM" /></a>
+                </div>
+                <h4>Grado en Ingeniería Informática</h4>
+                <h5>Universidad Politécnica de Madrid</h5>
+                <h6>2018-2022</h6>
+            </article>
+        </div>
+    </section>
+
+    <section id="Cursos">
+        <h3 class="courses">Cursos</h3>
+        <div class="coursesItems">
+            <article class="platzi-courses">
+                <h4>Platzi</h4>
+                <div class=platzi-images>
+                    <a href="https://platzi.com/cursos/git-github/" target="_blank">
+                        <img src="https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png" width="50" height="50" />
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="Tecnologias">
+        <h3 class="tech">Tecnologías</h3>
+        <div class="techItems">
+            <article class="listado">
+                <div class="tech-images">
+                    <img src="https://cdn1.iconfinder.com/data/icons/system-black-circles/512/java-512.png" width="150" height="150" />
+                    <img src="https://image.flaticon.com/icons/svg/28/28826.svg" width="150" height="150" />
+                    <img src="https://img.icons8.com/all/500/python.png" width="150" height="150" />
+                    <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/language_javascript_icon_135455.png" width="150" height="150" />
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" width="150" height="150" />
+                    <img src="https://dsirtech.com/wp-content/uploads/2019/06/C-Language-icon.png" width="150" height="150" />
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg" width="150" height="150" />
+                    <img src="https://cdn.icon-icons.com/icons2/1458/PNG/512/csslogo_99733.png" width="150" height="150" />
+                    
+                </div>
+                
+
+            </article>
+        </div>
+    </section>
+    <br />
+    <footer class="footer">
+
+        <section id="Contacto" class="contact">
+            <form>
+                <h4>
+                    ¿Interesado?
+                </h4>
+                <div class="email">
+                    <input type="text" placeholder="¡Déjame tu email!" />
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
         </section>
-
-        <section id="Estudios" class="studies">
-            <h3>Estudios</h3>
-            <div class="studiesItems">
-                <article class="II">
-                    <div class="UPM">
-                        <a href="https://www.fi.upm.es/?id=gradoingenieriainformatica" target="_blank"> <img src="https://buscatuempleopublico.es/jsjobsdata/data/employer/comp_1119/logo/upm.png" width="73" height="56" alt="Logo UPM" /></a>
-                    </div>
-                    <h4>Grado en Ingeniería Informática</h4>
-                    <h5>Universidad Politécnica de Madrid</h5>
-                    <h6>2018-2022</h6>
-                </article>
-            </div>
+        <section class="RRSS">
+            <a href="https://twitter.com/davidlucasm81" target="_blank"><img src="https://cdn.icon-icons.com/icons2/602/PNG/512/Twitter_icon-icons.com_55791.png" width="100" height="100" /></a>
+            <a href="https://www.linkedin.com/in/david-lucas-b04a91188/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/602/PNG/512/LinkedIn_icon-icons.com_55877.png" width="100" height="100" /></a>
+            <a href="https://github.com/davidlucasm81" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="100" height="100" /></a>
         </section>
-
-        <section id="Cursos" class="courses">
-            <h3>Cursos</h3>
-            <div class="coursesItems">
-                <article class="platzi-courses">
-                    <h4>Platzi</h4>
-                    <div class=platzi-images>
-                        <a href="https://platzi.com/cursos/git-github/" target="_blank">
-                            <img src="https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png" width="50" height="50" />
-                        </a>
-                    </div>
-                </article>
-            </div>
-            <br />
-        </section>
-
-        <footer class="footer">
-            
-            <section id="Contacto" class="contact">
-                <form>
-                    <h4>
-                        ¿Interesado?
-                    </h4>
-                    <div class="email">
-                        <input type="text" placeholder="¡Déjame tu email!" />
-                        <input type="submit" value="Enviar" />
-                    </div>
-                </form>
-            </section>
-            <section class="RRSS">
-                <a href="https://twitter.com/davidlucasm81" target="_blank"><img src="https://cdn.icon-icons.com/icons2/602/PNG/512/Twitter_icon-icons.com_55791.png" width="100" height="100" /></a>
-                <a href="https://www.linkedin.com/in/david-lucas-b04a91188/" target="_blank"><img src="https://cdn.icon-icons.com/icons2/602/PNG/512/LinkedIn_icon-icons.com_55877.png" width="100" height="100" /></a>
-                <a href="https://github.com/davidlucasm81" target="_blank"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="100" height="100" /></a>
-            </section>
-           </footer>
+    </footer>
 
 </body>
 
