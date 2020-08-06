@@ -15,7 +15,7 @@ body {
 .MySqlGest,
 footer,
 .myHeader,
-.init {
+.hero {
     background: #3d3d40;
     border-color: #606064;
     box-sizing: border-box;
@@ -27,7 +27,12 @@ footer,
 .init1,
 .init2,
 .init3,
-header {
+header,
+.hero,
+footer,
+.UPM,
+.platzi-images,
+.mysqlimage {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,24 +45,19 @@ header {
     margin-left: 10px;
     margin-right: 10px;
 }
+footer {
+    width: 1860px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
-.init {
+.hero {
     width: 670px;
     margin-top: -1px;
     margin-bottom: 0px;
     border-top-color: #3d3d40;
     border-top-left-radius:0px;
     border-top-right-radius:0px;
-}
-
-footer,
-.UPM,
-.platzi-images,
-.mysqlimage {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 .MSG1-image{
@@ -87,6 +87,10 @@ footer,
 .coursesItems {
     display: flex;
     flex-wrap: wrap;
+}
+.email{
+    margin-top:5px;
+    margin-right:20px;
 }
 
 /*
