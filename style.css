@@ -28,6 +28,7 @@ body {
 .init2,
 .init3,
 .space,
+.spaceTech,
 header,
 .footer,
 .UPM,
@@ -65,12 +66,13 @@ header,
 
 .hero {
     width: 670px;
-    margin-top: -1px;
+    margin-top: -3px;
     margin-bottom: 0px;
     border-top-color: #3d3d40;
     border-top-left-radius:0px;
     border-top-right-radius:0px;
 }
+
 
 .MSG1-image{
     margin-left:-10px;
@@ -126,15 +128,30 @@ header,
     border-radius: 0px 20px 20px 0px;
 }
 
-.listado {
-    padding: 10px 100px 10px 100px;
-    background: rgba(228, 228, 228, 0.84);
+.textTech {
+    color: black;
+    font-size:40px;
+    background: #c4c4c4;
     border-color: #cccccc;
-    color: #242424;
+    border-width: 1px;
+    border-bottom-color: #c4c4c4;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+}
+.textTech p{
+    margin-top:-5px;
+}
+
+.listado {
+    margin-top:-60px;
+    background: #c4c4c4;
+    border-color: #cccccc;
     box-sizing: border-box;
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
 }
+
+
 .UPM img {
     margin-top:10px;
     margin-bottom:0px;
