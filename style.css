@@ -7,7 +7,6 @@ body {
     margin: 10px;
     text-align:center;
 }
-
 .myHeader,
 .hero {
     background: #231f20;
@@ -19,8 +18,8 @@ body {
 }
 .II,
 .platzi-courses,
-.MSG1-image,
-.MSG2-image,
+.imageP,
+.imageP2,
 .MySqlGest,
 .footer {
     background: #3d3d40;
@@ -30,8 +29,6 @@ body {
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
 }
-
-
 .init1,
 .init2,
 .init3,
@@ -58,8 +55,7 @@ header,
     margin-right: 30px;
 }
 .myHeader {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin:10px;
     word-spacing: 150px;
     font-size: 50px;
 }
@@ -73,27 +69,104 @@ header,
     vertical-align: central;
 }
 
+.imageP,
+.imageP2 {
+    margin:3px;
+}
+.portafolioItems,
+.studiesItems,
+.coursesItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.portafolio,
+.studies,
+.courses,
+.tech {
+    background: #969393;
+    border-color: #606064;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px 20px 20px 0px;
+}
+.textTech {
+    margin-top: 10px;
+    color: black;
+    font-size: 40px;
+    background: #c4c4c4;
+    border-color: #dedede;
+    border-width: 2px;
+    border-bottom-color: #c4c4c4;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+}
+.textTech p {
+        margin: 10px;
+        margin-top: -5px;
+}
+
+.listado {
+    background: #9d9d9d;
+    border-color: #dedede;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin:10px;
+}
+
+
+.UPM img {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.platzi-images img,
+.II h6 {
+    margin-bottom: 10px;
+}
+
+.contact h4 {
+    color: #eeeeee;
+}
+
+.email_button {
+    background: transparent;
+    border-radius: 5px;
+    color: #d3d1d1;
+    margin-left: 5px;
+    height: 35px;
+    text-align: center;
+}
+
+.techItems {
+    margin-top: 20px;
+    color: black;
+}
+
+
+
 .hero {
     width: 670px;
-    margin-top: -2px;
+    margin-top: -12px;
     margin-bottom: 0px;
     border-top-color: #231f20;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
 
-
-.MSG1-image{
-    margin-left:-10px;
-    margin-right:10px;
-}
 .MySqlGest {
     width: 930px;
     border-width: 1px;
     margin: 20px;
     padding: 1px 10px 1px 10px
 }
-
 .II,
 .platzi-courses {
     width: 500px;
@@ -101,17 +174,6 @@ header,
     margin: 20px;
 }
 
-
-.portafolioItems,
-.studiesItems,
-.coursesItems{
-    display: flex;
-    flex-wrap: wrap;
-}
-.email{
-    margin-top:5px;
-    margin-right:20px;
-}
 .portafolio{
     width:140px;
 }
@@ -124,57 +186,6 @@ header,
 .tech{
     width:180px;
 }
-
-.portafolio,
-.studies,
-.courses,
-.tech {
-    background: #969393;
-    border-color: #606064;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0px 20px 20px 0px;
-}
-
-.textTech {
-    margin-top:10px;
-    color: black;
-    font-size: 40px;
-    background: #c4c4c4;
-    border-color: #dedede;
-    border-width: 2px;
-    border-bottom-color: #c4c4c4;
-    border-radius: 10px 10px 0px 0px;
-    box-sizing: border-box;
-}
-.textTech p{
-    margin:10px;
-    margin-top:-5px;
-}
-
-.listado {
-    background: #9d9d9d;
-    border-color: #dedede;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-radius: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-}
-
-
-.UPM img {
-    margin-top:10px;
-    margin-bottom:0px;
-}
-.platzi-images img,
-.II h6{
-    margin-bottom:10px;
-}
-.contact h4 {
-    color: #eeeeee;
-}
-
 .form_email {
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
     background-size: 25px 25px;
@@ -185,73 +196,155 @@ header,
     border-radius: 5px;
     width:220px;
 }
-.email_button {
-    background: transparent;
-    border-radius: 5px;
-    color: #d3d1d1;
-    margin-left: 5px;
-    height: 35px;
-    text-align:center;
+.imTech {
+    width: 150px; 
+    height: 150px;
 }
-.techItems {
-    margin-top: 20px;
-    color:black;
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 80vw;
+    }
+    .imageP{
+        width:57vw;
+        height:70vw;
+    }
+    .imageP2 {
+        width: 75vw;
+        height: 65vw;
+    }
+    .imTech{
+        width:25vw;
+        height:25vw;
+    }
+    .myHeader{
+        word-spacing:10vw;
+    }
+    .tech,
+    .portafolio,
+    .studies,
+    .courses{
+        font-size:5vw;
+    }
+    .portafolio {
+        width: 20vw;
+    }
+
+    .studies {
+        width: 20vw;
+    }
+
+    .courses {
+        width: 20vw;
+    }
+
+    .tech {
+        width: 25vw;
+    }
 }
-/*
+@media screen and (max-width:425px){
+    .imageP,
+    .imageP2{
+        margin:1px;
+    }
+    .imRRSS {
+        margin-top: 10px;
+    }
+    .tech,
+    .portafolio,
+    .studies,
+    .courses {
+        font-size: 10vw;
+    }
+
+    .portafolio {
+        width: 36vw;
+    }
+
+    .studies {
+        width: 34vw;
+    }
+
+    .courses {
+        width: 30vw;
+    }
+
+    .tech {
+        width: 47vw;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .imRRSS{
+        width:20vw;
+        height:20vw;
+    }
+    .form_email{
+        width: 50vw;
+    }
+    .email_button{
+        width:18vw;
+    }
+}
+
+
+    /*
     Tipografia
 */
-a {
-    color: #d1d1d1;
-    letter-spacing: 0.5px;
-    text-decoration:underline;
-}
+    a {
+        color: #d1d1d1;
+        letter-spacing: 0.5px;
+        text-decoration: underline;
+    }
 
-h1 strong {
-    color: #ffffff;
-}
+    h1 strong {
+        color: #ffffff;
+    }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+    h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 
-h2 {
-    color: #e5e5e5;
-    font-weight: 400;
-    font-size: 35px;
-    font-style: italic;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+    h2 {
+        color: #e5e5e5;
+        font-weight: 400;
+        font-size: 35px;
+        font-style: italic;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 
-h3 {
-    color: #f1f1f1;
-    font-weight: 400;
-    font-size: 40px;
-    margin-bottom: 0px;
-}
+    h3 {
+        color: #f1f1f1;
+        font-weight: 400;
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
 
-h4 {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 35px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+    h4 {
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 
-h5 {
-    font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: #dcdcdc;
-}
+    h5 {
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: #dcdcdc;
+    }
 
-h6 {
-    font-weight: 400;
-    font-size: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+    h6 {
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 
