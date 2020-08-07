@@ -237,6 +237,21 @@ header,
     padding: 3px;
 }
 
+.contact {
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.email {
+    margin: 0;
+}
+.email_button{
+    margin:0;
+    margin-top:5px;
+}
+
 
 @media screen and (max-width: 1592px) {
     .myHeader{
