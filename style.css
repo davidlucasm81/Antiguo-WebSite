@@ -89,7 +89,7 @@ header,
     width: 930px;
     border-width: 1px;
     margin: 20px;
-    padding: 1px 1px 1px 10px;
+    padding: 1px 10px 1px 10px
 }
 
 .II,
@@ -136,6 +136,7 @@ header,
 }
 
 .textTech {
+    margin-top:10px;
     color: black;
     font-size: 40px;
     background: #c4c4c4;
