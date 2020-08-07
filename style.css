@@ -30,10 +30,7 @@ body {
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
 }
-.footer {
-    background: #676162;
-    padding:5px 5px 5px 5px;
-}
+
 
 .init1,
 .init2,
@@ -68,6 +65,8 @@ header,
 }
 
 .footer {
+    background: #837e7f;
+    padding: 5px 5px 5px 5px;
     text-align:left;
     margin-left: 10px;
     margin-right: 10px;
@@ -155,7 +154,7 @@ header,
 }
 
 .listado {
-    background: #a3a3a3;
+    background: #9d9d9d;
     border-color: #dedede;
     box-sizing: border-box;
     border-width: 2px;
