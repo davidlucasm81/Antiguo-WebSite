@@ -82,8 +82,8 @@ header,
     max-width: 670px;
     width: 100%;
     padding: 5px;
+    margin:5px;
     margin-top: -11px;
-    margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -193,10 +193,10 @@ header,
     color: #eeeeee;
 }
 .email_button {
-    background: transparent;
+    background: #9d9d9d;
     border-radius: 5px;
-    color: #d3d1d1;
-    margin:5px;
+    color: #000000;
+    margin: 5px;
     height: 35px;
     text-align: center;
 }
