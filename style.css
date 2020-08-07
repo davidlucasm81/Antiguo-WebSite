@@ -31,7 +31,7 @@ body {
     border-radius: 10px 10px 10px 10px;
 }
 .footer {
-    background: #231f20;
+    background: #676162;
     padding:5px 5px 5px 5px;
 }
 
@@ -39,7 +39,6 @@ body {
 .init2,
 .init3,
 .space,
-.spaceTech,
 header,
 .footer,
 .UPM,
@@ -156,8 +155,7 @@ header,
 }
 
 .listado {
-    margin-top: -25px;
-    background: #c4c4c4;
+    background: #a3a3a3;
     border-color: #dedede;
     box-sizing: border-box;
     border-width: 2px;
