@@ -164,6 +164,7 @@ header,
 
 .hero {
     max-width: 670px;
+    width:100%;
     padding:5px;
     margin-top: -12px;
     margin-bottom: 0px;
@@ -172,14 +173,16 @@ header,
     border-top-right-radius: 0px;
 }
 
-.DavidLucasWeb{
-    max-width:33vw;
+.DavidLucasWeb {
+    max-width: 33vw;
+    width: 100%;
     border-width: 1px;
     margin: 20px;
     padding: 1px 10px 1px 10px
 }
 .MySqlGest {
-    max-width:50vw;
+    max-width: 50vw;
+    width: 100%;
     border-width: 1px;
     margin: 20px;
     padding: 1px 10px 1px 10px;
@@ -187,7 +190,8 @@ header,
 .II,
 .platzi-courses {
     max-width: 500px;
-    padding:10px;
+    width: 100%;
+    padding: 10px;
     border-width: 1px;
     margin: 20px;
 }
@@ -195,17 +199,21 @@ header,
     padding:3px;
 }
 
-.portafolio{
-    max-width:140px;
+.portafolio {
+    max-width: 140px;
+    width: 100%;
 }
-.studies{
-    max-width:130px;
+.studies {
+    max-width: 130px;
+    width: 100%;
 }
-.courses{
-    max-width:110px;
+.courses {
+    max-width: 110px;
+    width: 100%;
 }
-.tech{
-    max-width:180px;
+.tech {
+    max-width: 180px;
+    width: 100%;
 }
 .form_email {
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
@@ -215,11 +223,15 @@ header,
     background-position-x: right;
     max-height: 30px;
     border-radius: 5px;
-    max-width:220px;
+    max-width: 220px;
+    width: 100%;
+    height:100%;
 }
 .imTech {
-    max-width: 150px; 
+    max-width: 150px;
     max-height: 150px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -227,21 +239,29 @@ header,
     .DavidLucasWeb,
     .MySqlGest {
         max-width: 90vw;
+        width: 100%;
     }
     .hero {
         max-width: 80vw;
+        width: 100%;
     }
-    .imageP{
-        max-width:57vw;
-        max-height:70vw;
+    .imageP {
+        max-width: 57vw;
+        max-height: 70vw;
+        width: 100%;
+        height: 100%;
     }
     .imageP2 {
         max-width: 80vw;
         max-height: 65vw;
+        width: 100%;
+        height: 100%;
     }
-    .imTech{
-        max-width:25vw;
-        max-height:25vw;
+    .imTech {
+        max-width: 25vw;
+        max-height: 25vw;
+        width: 100%;
+        height: 100%;
     }
     .myHeader{
         word-spacing:10vw;
@@ -254,18 +274,22 @@ header,
     }
     .portafolio {
         max-width: 20vw;
+        width: 100%;
     }
 
     .studies {
         max-width: 20vw;
+        width: 100%;
     }
 
     .courses {
         max-width: 20vw;
+        width: 100%;
     }
 
     .tech {
         max-width: 25vw;
+        width: 100%;
     }
 }
 @media screen and (max-width:425px){
@@ -285,18 +309,22 @@ header,
 
     .portafolio {
         max-width: 36vw;
+        width: 100%;
     }
 
     .studies {
         max-width: 34vw;
+        width: 100%;
     }
 
     .courses {
         max-width: 30vw;
+        width: 100%;
     }
 
     .tech {
         max-width: 47vw;
+        width: 100%;
     }
 }
 
@@ -305,12 +333,16 @@ header,
     .imRRSS {
         max-width: 20vw;
         max-height: 20vw;
+        width: 100%;
+        height:100%;
     }
     .form_email {
         max-width: 50vw;
+        width: 100%;
     }
     .email_button {
         max-width: 18vw;
+        width: 100%;
     }
 }
 
