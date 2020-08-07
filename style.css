@@ -1,3 +1,6 @@
+/*
+    Body
+*/
 body {
     font-family: 'Oswald', sans-serif;
     background: #1e1e1e;
@@ -5,92 +8,38 @@ body {
     color: #b6b6b6;
     letter-spacing: -0.1px;
     margin: 10px;
-    text-align:center;
+    text-align: center;
 }
+/*
+    Elements
+*/
+.footer,
+.Pt,
 .myHeader,
-.hero {
-    background: #231f20;
-    border-color: #414141;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px 10px 10px 10px;
+header,
+.listado,
+.techSection,
+.studiesItems,
+.coursesItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
 .II,
-.platzi-courses,
 .imageP,
 .imageP2,
 .MySqlGest,
-.footer,
 .DavidLucasWeb {
     background: #3d3d40;
     border-color: #5f5f5f;
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px 10px 10px 10px;
-}
-.init1,
-.init2,
-.init3,
-.space,
-header,
-.footer,
-.UPM,
-.platzi-images,
-.mysqlimage,
-.myHeader,
-.listado,
-.techItems,
-.tech-images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.last {
-    margin-right: 30px;
-}
-.myHeader {
-    margin:10px;
-    padding:5px;
-    word-spacing: 150px;
-    font-size: 50px;
+    border-radius: 10px;
 }
 
-.footer {
-    background: #837e7f;
-    padding: 5px 5px 5px 5px;
-    text-align:left;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: central;
-}
-
-.imageP{
-    margin:3px;
-    max-width:23vw;
-    max-height:27vw;
-}
-.imageP2{
-    max-width:33vw;
-    max-height:27vw;
-}
-.studiesItems,
-.coursesItems {
-    display: flex;
-    flex-wrap: wrap;
-}
-.Pt{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-}
-
-.email {
-    margin-top: 5px;
-    margin-right: 20px;
-}
 .portafolio,
 .studies,
 .courses,
@@ -102,114 +51,154 @@ header,
     border-width: 1px;
     border-radius: 0px 20px 20px 0px;
 }
-.textTech {
-    margin-top: 10px;
-    color: black;
-    font-size: 40px;
-    background: #c4c4c4;
-    border-color: #dedede;
-    border-width: 2px;
-    border-bottom-color: #c4c4c4;
-    border-radius: 10px 10px 0px 0px;
+/*
+    Header
+*/
+.myHeader,
+.hero {
+    background: #231f20;
+    border-color: #414141;
     box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
 }
-.textTech p {
-        margin: 10px;
-        margin-top: -5px;
+.myHeader {
+    max-width:90vw;
+    width:100%;
+    margin: 10px;
+    padding: 20px;
+    word-spacing: 150px;
+    font-size: 50px;
 }
-
-.listado {
-    background: #9d9d9d;
-    border-color: #dedede;
-    box-sizing: border-box;
-    border-width: 2px;
-    border-radius: 10px 10px 10px 10px;
-    padding: 10px;
-    margin:10px;
+.myHeader a {
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #3d3d40;
+    border-style: solid;
+    padding: 3px;
 }
-
-
-.UPM img {
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.platzi-images img,
-.II h6 {
-    margin-bottom: 10px;
-}
-
-.contact h4 {
-    color: #eeeeee;
-}
-
-.email_button {
-    background: transparent;
-    border-radius: 5px;
-    color: #d3d1d1;
-    margin-left: 5px;
-    height: 35px;
-    text-align: center;
-}
-
-.techItems {
-    margin-top: 20px;
-    color: black;
-}
-
-
-
 .hero {
     max-width: 670px;
-    width:100%;
-    padding:5px;
+    width: 100%;
+    padding: 5px;
     margin-top: -11px;
     margin-bottom: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-
+/*
+    Portfolio
+*/
+.portafolio {
+    margin: 5px;
+    max-width: 140px;
+    width: 100%;
+}
 .DavidLucasWeb {
     max-width: 33vw;
     width: 100%;
     border-width: 1px;
     margin: 20px;
-    padding: 1px 10px 1px 10px
+    padding: 10px;
 }
 .MySqlGest {
     max-width: 50vw;
     width: 100%;
     border-width: 1px;
     margin: 20px;
-    padding: 1px 10px 1px 10px;
+    padding: 10px;
 }
-.II,
-.platzi-courses {
+.imageP {
+    max-width: 23vw;
+    max-height: 27vw;
+}
+
+.imageP2 {
+    max-width: 33vw;
+    max-height: 27vw;
+}
+/*
+    Tech
+*/
+.tech {
+    margin: 0px;
+    max-width: 180px;
+    width: 100%;
+}
+.imTech {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+}
+.listado {
+    background: #9d9d9d;
+    border-color: #dedede;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 88vw;
+}
+.listado img {
+    margin: 2px;
+}
+/*
+    Estudios y Cursos
+*/
+.studies {
+    max-width: 130px;
+    width: 100%;
+}
+.II {
     max-width: 500px;
     width: 100%;
     padding: 10px;
     border-width: 1px;
     margin: 20px;
 }
-.platzi-courses img{
-    padding:3px;
-}
-
-.portafolio {
-    max-width: 140px;
-    width: 100%;
-}
-.studies {
-    max-width: 130px;
-    width: 100%;
+.II img {
+    padding: 3px;
 }
 .courses {
     max-width: 110px;
     width: 100%;
 }
-.tech {
-    max-width: 180px;
-    width: 100%;
+
+/*
+    Footer
+*/
+.footer {
+    border-color: #5f5f5f;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: #837e7f;
+    padding: 5px;
+    text-align: left;
+    margin:10px;
+    vertical-align: central;
+}
+.contact {
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 5px;
+}
+.contact h4 {
+    color: #eeeeee;
+}
+.email_button {
+    background: transparent;
+    border-radius: 5px;
+    color: #d3d1d1;
+    margin:5px;
+    height: 35px;
+    text-align: center;
 }
 .form_email {
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
@@ -218,40 +207,79 @@ header,
     background-position-y: center;
     background-position-x: right;
     max-height: 30px;
+    margin:5px;
     border-radius: 5px;
     max-width: 220px;
     width: 100%;
-    height:100%;
-}
-.imTech {
-    max-width: 150px;
-    max-height: 150px;
-    width: 100%;
     height: 100%;
 }
-.myHeader a {
-    border-width: 1px;
-    border-radius: 10px 10px 10px 10px;
-    border-color: #3d3d40;
-    border-style: solid;
-    padding: 3px;
+.RRSS img{
+    padding:5px;
+}
+/*
+    Tipografia
+*/
+a {
+    color: #eeecec;
+    letter-spacing: 0.5px;
+    text-decoration: none;
 }
 
-.contact {
-    display: block;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
+h1 strong {
+    color: #ffffff;
 }
 
-.email {
-    margin: 0;
-}
-.email_button{
-    margin:0;
-    margin-top:5px;
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
+h2 {
+    color: #e5e5e5;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0px;
+}
+
+h4 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #dcdcdc;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin: 4px;
+}
+/*
+    Responsive Design
+*/
 
 @media screen and (max-width: 1592px) {
     .myHeader{
@@ -295,7 +323,7 @@ header,
         width: 100%;
     }
     .imageP {
-        max-width: 57vw;
+        max-width: 45vw;
         max-height: 70vw;
         width: 100%;
         height: 100%;
@@ -315,6 +343,9 @@ header,
     .myHeader {
         word-spacing: 10px;
         padding:8px;
+    }
+    .myHeader a{
+        font-size:30px;
     }
     .tech,
     .portafolio,
@@ -343,11 +374,6 @@ header,
     }
 }
 @media screen and (max-width:767px) {
-    
-    header{
-        height:auto;
-        display:block;
-    }
     .myHeader {
         width: 90vw;
         height: auto;
@@ -403,6 +429,15 @@ header,
         max-width: 47vw;
         width: 100%;
     }
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:25px;
+    }
+    h3 {
+        font-size: 25px;
+    }
 }
 
 
@@ -421,63 +456,14 @@ header,
         max-width: 18vw;
         width: 100%;
     }
-}
-
-
-    /*
-    Tipografia
-*/
-    a {
-        color: #eeecec;
-        letter-spacing: 0.5px;
-        text-decoration: none;
-    }
-    h1 strong {
-        color: #ffffff;
-    }
-
     h1 {
-        font-size: 40px;
-        margin-bottom: 0px;
-        margin-top: 0px;
+        font-size: 25px;
     }
 
     h2 {
-        color: #e5e5e5;
-        font-weight: 400;
-        font-size: 35px;
-        font-style: italic;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-
-    h3 {
-        color: #f1f1f1;
-        font-weight: 400;
-        font-size: 40px;
-        margin-bottom: 0px;
-    }
-
-    h4 {
-        color: #ffffff;
-        font-weight: 400;
-        font-size: 35px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-    }
-
-    h5 {
-        font-weight: 400;
-        font-size: 25px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        color: #dcdcdc;
-    }
-
-    h6 {
-        font-weight: 400;
         font-size: 20px;
-        margin-bottom: 0px;
-        margin-top: 0px;
     }
-
+    h3{
+        font-size:20px;
+    }
+}
