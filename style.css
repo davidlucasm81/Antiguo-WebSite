@@ -21,7 +21,8 @@ body {
 .imageP,
 .imageP2,
 .MySqlGest,
-.footer {
+.footer,
+.DavidLucasWeb {
     background: #3d3d40;
     border-color: #5f5f5f;
     box-sizing: border-box;
@@ -69,15 +70,24 @@ header,
     vertical-align: central;
 }
 
-.imageP,
-.imageP2 {
+.imageP{
     margin:3px;
+    max-width:23vw;
+    max-height:27vw;
 }
-.portafolioItems,
+.imageP2{
+    max-width:33vw;
+    max-height:27vw;
+}
 .studiesItems,
 .coursesItems {
     display: flex;
     flex-wrap: wrap;
+}
+.Pt{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
 }
 
 .email {
@@ -153,7 +163,8 @@ header,
 
 
 .hero {
-    width: 670px;
+    max-width: 670px;
+    padding:5px;
     margin-top: -12px;
     margin-bottom: 0px;
     border-top-color: #231f20;
@@ -161,30 +172,40 @@ header,
     border-top-right-radius: 0px;
 }
 
-.MySqlGest {
-    width: 930px;
+.DavidLucasWeb{
+    max-width:33vw;
     border-width: 1px;
     margin: 20px;
     padding: 1px 10px 1px 10px
 }
+.MySqlGest {
+    max-width:50vw;
+    border-width: 1px;
+    margin: 20px;
+    padding: 1px 10px 1px 10px;
+}
 .II,
 .platzi-courses {
-    width: 500px;
+    max-width: 500px;
+    padding:10px;
     border-width: 1px;
     margin: 20px;
 }
+.platzi-courses img{
+    padding:3px;
+}
 
 .portafolio{
-    width:140px;
+    max-width:140px;
 }
 .studies{
-    width:130px;
+    max-width:130px;
 }
 .courses{
-    width:110px;
+    max-width:110px;
 }
 .tech{
-    width:180px;
+    max-width:180px;
 }
 .form_email {
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
@@ -192,31 +213,35 @@ header,
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: right;
-    height: 30px;
+    max-height: 30px;
     border-radius: 5px;
-    width:220px;
+    max-width:220px;
 }
 .imTech {
-    width: 150px; 
-    height: 150px;
+    max-width: 150px; 
+    max-height: 150px;
 }
 
 
 @media screen and (max-width: 768px) {
+    .DavidLucasWeb,
+    .MySqlGest {
+        max-width: 90vw;
+    }
     .hero {
-        width: 80vw;
+        max-width: 80vw;
     }
     .imageP{
-        width:57vw;
-        height:70vw;
+        max-width:57vw;
+        max-height:70vw;
     }
     .imageP2 {
-        width: 75vw;
-        height: 65vw;
+        max-width: 80vw;
+        max-height: 65vw;
     }
     .imTech{
-        width:25vw;
-        height:25vw;
+        max-width:25vw;
+        max-height:25vw;
     }
     .myHeader{
         word-spacing:10vw;
@@ -228,19 +253,19 @@ header,
         font-size:5vw;
     }
     .portafolio {
-        width: 20vw;
+        max-width: 20vw;
     }
 
     .studies {
-        width: 20vw;
+        max-width: 20vw;
     }
 
     .courses {
-        width: 20vw;
+        max-width: 20vw;
     }
 
     .tech {
-        width: 25vw;
+        max-width: 25vw;
     }
 }
 @media screen and (max-width:425px){
@@ -259,33 +284,33 @@ header,
     }
 
     .portafolio {
-        width: 36vw;
+        max-width: 36vw;
     }
 
     .studies {
-        width: 34vw;
+        max-width: 34vw;
     }
 
     .courses {
-        width: 30vw;
+        max-width: 30vw;
     }
 
     .tech {
-        width: 47vw;
+        max-width: 47vw;
     }
 }
 
 
 @media screen and (max-width: 375px) {
-    .imRRSS{
-        width:20vw;
-        height:20vw;
+    .imRRSS {
+        max-width: 20vw;
+        max-height: 20vw;
     }
-    .form_email{
-        width: 50vw;
+    .form_email {
+        max-width: 50vw;
     }
-    .email_button{
-        width:18vw;
+    .email_button {
+        max-width: 18vw;
     }
 }
 
