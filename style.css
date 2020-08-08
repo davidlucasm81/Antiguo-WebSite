@@ -80,7 +80,7 @@ header,
     word-spacing: 150px;
     font-size: 50px;
 }
-.myHeader a {
+.myHeader nav a{
     border-width: 1px;
     border-radius: 10px;
     border-color: #3d3d40;
@@ -390,23 +390,31 @@ p {
         width: 90vw;
         height: auto;
         display: block;
-        padding:0px;
+        padding: 0px;
     }
     .myHeader nav{
         width:100%;
         display:block;
     }
     .myHeader nav a{
+        margin-left:-1px;
+        margin-right:-1px;
+        border-width:0.5px;
         height:auto;
         display:block;
         text-align:center;
         padding:0;
         border-radius:0px;
     }
+     .myHeader nav span a{
+         padding:0px;
+         border:none;
+    }
     .logo{
         padding-bottom:0px;
         padding-top:10px;
     }
+
 }
 @media screen and (max-width:425px){
     .imageP,
