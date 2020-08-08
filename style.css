@@ -10,6 +10,7 @@ body {
     margin: 10px;
     text-align: center;
 }
+
 /*
     Elements
 */
@@ -155,6 +156,7 @@ header,
     margin: 0px;
     max-width: 180px;
     width: 100%;
+    
 }
 .imTech {
     max-width: 150px;
@@ -359,7 +361,6 @@ p {
         transform: rotate(0deg) scale(1,1);
     }
 }
-
 /*
     Responsive Design
 */
