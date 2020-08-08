@@ -116,10 +116,6 @@ header,
     margin: 5px;
     max-width: 140px;
     width: 100%;
-    position: relative;
-    animation-name: izquierda;
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
 }
 
 .DavidLucasWeb {
@@ -310,6 +306,25 @@ p {
     margin: 4px;
 }
 /*
+    Llamando Animaciones
+*/
+.portafolio,
+.tech,
+.studies,
+.courses{
+    position: relative;
+    animation-name: izquierda;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.listado,
+.II{
+    animation-name: zoom;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+/*
     Animations
 */
 @keyframes arriba{
@@ -359,6 +374,14 @@ p {
 
     to {
         transform: rotate(0deg) scale(1,1);
+    }
+}
+@keyframes zoom{
+    from {
+        transform: scale(0,0);
+    }
+    to {
+        transform: scale(1,1);
     }
 }
 /*
