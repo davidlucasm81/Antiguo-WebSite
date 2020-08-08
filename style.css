@@ -52,13 +52,13 @@ header,
     border-radius: 0px 20px 20px 0px;
 }
 .upButton {
-  width:13vw;
-  height:13vw;
-  position:absolute;
-  bottom:15px;
-  left:15px;
-  position:fixed;
-  visibility:hidden;
+    width: 13vw;
+    height: 13vw;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    position: fixed;
+    visibility: hidden;
 }
 /*
     Header
@@ -339,7 +339,7 @@ p {
         bottom: -100vh;
     }
     100% {
-        bottom: 0;
+        bottom: 15px;
     }
 }
 @keyframes girarDerecha{
@@ -459,6 +459,9 @@ p {
 @media screen and (max-width:767px) {
     .upButton {
         visibility: visible;
+        z-index:1;
+        animation-name: abajo;
+        animation-duration: 6s;
     }
     .myHeader {
         width: 90vw;
