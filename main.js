@@ -7,7 +7,7 @@ function sendEmail(){
 		alert("Introduzca un mail valido: nombre@dominio")
 	}
 	else{
-		alert("El correo "+mail+" ha sido almacenado satisfactoriamente")
+		alert("El correo "+mail+" ha sido almacenado satisfactoriamente  WIP")
 	}
 	
 	document.activeElement.blur()
