@@ -1,14 +1,13 @@
-let mailButton = document.getElementById("mailButton")
-let mailBox = document.getElementById("mailBox")
+let mailBox = document.getElementById("mailBox");
 
 function sendEmail(){
-	let mail = mailBox.value
+	let mail = mailBox.value;
 	if(!mail || !mail.includes("@") || !mail.includes(".")){
-		alert("Introduzca un mail valido: nombre@dominio")
+		alert("Introduzca un mail valido: nombre@dominio");
 	}
 	else{
-		alert("El correo "+mail+" ha sido almacenado satisfactoriamente  WIP")
+		alert("El correo "+mail+" ha sido almacenado satisfactoriamente  WIP");
 	}
 	
-	document.activeElement.blur()
+	document.activeElement.blur();
 }
