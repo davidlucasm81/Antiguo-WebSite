@@ -29,6 +29,7 @@ header,
 }
 
 .II,
+.II2,
 .imageP,
 .imageP2,
 .MySqlGest,
@@ -149,6 +150,8 @@ header,
     Tech
 */
 .tech {
+    position:relative;
+    left:-50vw;
     margin: 0px;
     max-width: 180px;
     width: 100%;
@@ -170,6 +173,7 @@ header,
     margin: 20px;
     max-width: 75vw;
     width:100%;
+    transform: scale(0,0);
 }
 .listado img {
     margin: 2px;
@@ -178,20 +182,27 @@ header,
     Estudios y Cursos
 */
 .studies {
+    position:relative;
+    left:-50vw;
     max-width: 130px;
     width: 100%;
 }
-.II {
+.II,
+.II2 {
     max-width:25vw;
     width: 100%;
     padding: 10px;
     border-width: 1px;
     margin: 20px;
+    transform: scale(0,0);
 }
-.II img {
+.II img,
+.II2 img {
     padding: 3px;
 }
 .courses {
+    position:relative;
+    left:-50vw;
     max-width: 110px;
     width: 100%;
 }
@@ -309,22 +320,13 @@ p {
 /*
     Llamando Animaciones
 */
-.portafolio,
-.tech,
-.studies,
-.courses{
+.portafolio{
     position: relative;
     animation-name: izquierda;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
 
-.listado,
-.II{
-    animation-name: zoom;
-    animation-duration: 2.5s;
-    animation-fill-mode: forwards;
-}
 /*
     Animations
 */
