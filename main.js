@@ -5,14 +5,14 @@ class Interseccion{
 	constructor(){
 		this.visto = {"tech": false, "studies" :  false, "courses" : false};
 		this.callback = this.callback.bind(this);
-		this.observer = new IntersectionObserver(this.callback, {threshold:0.2});
+		this.observer = new IntersectionObserver(this.callback, {threshold:0.3});
 		this.observer.observe(secciones[0]);
 		this.observer.observe(secciones[1]);
 		this.observer.observe(secciones[2]);
 	}
 	callback(entries) {
 		entries.forEach(entry =>{
-			const isVisible = entry.intersectionRatio >=0.2;
+			const isVisible = entry.intersectionRatio >=0.3;
 			if(isVisible && !this.visto[entry.target.className]){
 				this.visto[entry.target.className]=true;
 				show(entry.target.className)
@@ -40,24 +40,13 @@ function show(name){
 	elementPrimero.animate([
 		{left: "0"}
 	],{
-		duration:2000,
+		duration:1500,
 		fill: "forwards"
 	})
 	elementSegundo.animate([
 		{transform: "scale(1,1)"}
 	],{
-		duration:3000,
+		duration:1500,
 		fill: "forwards"
 	})
-}
-function sendEmail(){
-	let mail = document.getElementById("mailBox").value;
-	if(!mail || !mail.includes("@") || !mail.includes(".")){
-		alert("Introduzca un mail valido: nombre@dominio");
-	}
-	else{
-		alert(`El correo ${mail} ha sido almacenado satisfactoriamente  WIP`);
-	}
-	
-	document.activeElement.blur();
 }

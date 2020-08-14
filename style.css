@@ -218,37 +218,6 @@ header,
     margin:10px;
     vertical-align: central;
 }
-.contact {
-    display: block;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-    margin: 5px;
-}
-.contact h4 {
-    color: #eeeeee;
-}
-.email_button {
-    background: #9d9d9d;
-    border-radius: 5px;
-    color: #000000;
-    margin: 5px;
-    height: 35px;
-    text-align: center;
-}
-.form_email {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/000/649/148/non_2x/vector-mail-icon-symbol-sign.jpg);
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: right;
-    max-height: 30px;
-    margin:5px;
-    border-radius: 5px;
-    max-width: 220px;
-    width: 100%;
-    height: 100%;
-}
 .RRSS img{
     padding:5px;
 }
@@ -568,14 +537,6 @@ p {
         max-height: 20vw;
         width: 100%;
         height:100%;
-    }
-    .form_email {
-        max-width: 50vw;
-        width: 100%;
-    }
-    .email_button {
-        max-width: 18vw;
-        width: 100%;
     }
     h1 {
         font-size: 25px;
