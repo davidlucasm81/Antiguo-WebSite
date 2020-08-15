@@ -1,5 +1,5 @@
 const elementosPrimeros = [document.getElementById("tech"),document.getElementById("studies"),document.getElementById("courses")]
-const elementosSegundos = [document.getElementById("listado"),document.getElementById("II"),document.getElementById("II2")]
+const elementosSegundos = [document.getElementById("tech__images"),document.getElementById("studies__articles__first"),document.getElementById("courses__articles__first")]
 const secciones= [document.getElementById("techDiv"),document.getElementById("study"),document.getElementById("cursos")]
 class Interseccion{
 	constructor(){

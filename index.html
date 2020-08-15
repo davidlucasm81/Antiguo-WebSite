@@ -11,11 +11,11 @@
 </head>
 
 <body>
-   <header>
-        <a href="#myHeader"><img src="https://i.ibb.co/WGBRrRd/flecha-Arriba.png" class="upButton" /></a>
-        <section id="myHeader" class="myHeader">
-            <img src="https://static.vecteezy.com/system/resources/previews/000/647/149/non_2x/vector-map-pointer-wrench-icon.jpg" class="logo" alt="icon" width="110" h="110" />
-            <nav class="indice">
+    <header>
+        <a href="#header"><img src="https://i.ibb.co/WGBRrRd/flecha-Arriba.png" class="button__up" /></a>
+        <section id="header" class="header">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/647/149/non_2x/vector-map-pointer-wrench-icon.jpg" class="image__logo" alt="icon" width="110" h="110" />
+            <nav>
                 <a href="#portafolio">Portfolio</a>
                 <a href="#Tecnologias">Tecnologías</a>
                 <a href="#Estudios">Estudios</a>
@@ -23,34 +23,32 @@
                 <span><a href="#Contacto">Contacto</a></span>
             </nav>
         </section>
-        <section class="hero">
-            <h1 class="init1">
+        <section class="header__info">
+            <h1>
                 <strong>David Lucas Mora</strong>
             </h1>
-            <h1 class="init2">
+            <h1>
                 Estudiante de&nbsp<strong>Ingeniería Informática</strong>
             </h1>
-            <h2 class="init3">
+            <h2>
                 "Aprendiendo cada día"
             </h2>
         </section>
     </header>
-    <div class="port">
-        <h3 id="portafolio" class="portafolio">Portfolio</h3>
-        <section id="Portafolio" class="Pt">
-            <article class="DavidLucasWeb">
+        <h3 class="element__portafolio">Portfolio</h3>
+        <section class="element__portafolio__articles">
+            <article class="articles__small">
                 <h4>David Lucas Web</h4>
                 <h5>
                     ¡Esta misma Página Web! Donde puedes ver mi portfolio, mis estudios y cursos tomados, así como las tecnologías en las que
                     estoy interesado.
                 </h5>
-                <h6>HTML y CSS</h6>
+                <h6>HTML, CSS y JavaScript</h6>
                 <p><strong>Fecha: </strong>06/08/2020</p>
-                <img src="https://i.ibb.co/H4ycRmR/Pagina-Web.jpg" class="imageP" alt="Imagen Web" width="400" height="488" />
+                <img src="https://i.ibb.co/H4ycRmR/Pagina-Web.jpg" class="image__small" alt="Imagen Web" width="400" height="488" />
                 <p><strong>Puedes ver el código fuente <a href="https://github.com/davidlucasm81/WebSite" target="_blank">aqui</a></strong></p>
             </article>
-            <article class="MySqlGest">
-
+            <article class="articles__long">
                 <h4>MySqlGest</h4>
                 <h5>
                     Un gestor de MySql donde puedes tanto realizar las consultas que desees, como actualizar la propia base de datos.
@@ -58,33 +56,29 @@
                 </h5>
                 <h6>Java</h6>
                 <p><strong>Fecha: </strong>04/08/2020</p>
-                <img src="https://i.ibb.co/CJtzFDb/SQL1.jpg" class="imageP" alt="Primera Imagen MySqlGest" />
-                <img src="https://i.ibb.co/C2M49tQ/SQL2.jpg" class="imageP2" width="560" height="450" alt="Segunda Imagen MySqlGest" />
+                <img src="https://i.ibb.co/CJtzFDb/SQL1.jpg" class="image__small" alt="Primera Imagen MySqlGest" />
+                <img src="https://i.ibb.co/C2M49tQ/SQL2.jpg" class="image__long" width="560" height="450" alt="Segunda Imagen MySqlGest" />
                 <p><strong>Puedes verlo <a href="https://github.com/davidlucasm81/MySqlGest" target="_blank">aqui</a></strong></p>
-
             </article>
         </section>
-    </div>
     <div class="techDiv" id="techDiv">
-        <h3 id="tech" class="tech">Tecnologías</h3>
-        <section id="Tecnologias" class="techSection">
-            <article class="listado" id="listado">
-                <img src="https://cdn1.iconfinder.com/data/icons/system-black-circles/512/java-512.png" class="imTech" alt="Java" />
-                <img src="https://image.flaticon.com/icons/svg/28/28826.svg" class="imTech" alt="SQL" />
-                <img src="https://img.icons8.com/all/500/python.png" class="imTech" alt="Python" />
-                <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png" class="imTech" alt="JavaScript" />
-                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" class="imTech" alt="Git" />
-                <img src="https://dsirtech.com/wp-content/uploads/2019/06/C-Language-icon.png" class="imTech" alt="C" />
-                <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg" class="imTech" alt="HTML5" />
-                <img src="https://icon-library.com/images/css-icon-png/css-icon-png-25.jpg" class="imTech" alt="CSS" />
-                <img src="https://icon-library.com/images/node-js-icon/node-js-icon-2.jpg" class="imTech" alt="NodeJS" />
+        <h3 id="tech" class="element__tech">Tecnologías</h3>
+            <article class="tech__images" id="tech__images">
+                <img src="https://cdn1.iconfinder.com/data/icons/system-black-circles/512/java-512.png" alt="Java" />
+                <img src="https://image.flaticon.com/icons/svg/28/28826.svg" alt="SQL" />
+                <img src="https://img.icons8.com/all/500/python.png" alt="Python" />
+                <img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-512.png" alt="JavaScript" />
+                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png" alt="Git" />
+                <img src="https://dsirtech.com/wp-content/uploads/2019/06/C-Language-icon.png" alt="C" />
+                <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.svg" alt="HTML5" />
+                <img src="https://icon-library.com/images/css-icon-png/css-icon-png-25.jpg" alt="CSS" />
+                <img src="https://icon-library.com/images/node-js-icon/node-js-icon-2.jpg" alt="NodeJS" />
             </article>
-        </section>
     </div>
     <div class="study" id="study">
-        <h3 class="studies" id="studies">Estudios</h3>
-        <section id="Estudios" class="studiesItems">
-            <article class="II" id="II">
+        <h3 class="element__studies" id="studies">Estudios</h3>
+        <section id="Estudios" class="element__studies__articles">
+            <article class="studies__articles__first" id="studies__articles__first">
                 <a href="https://www.fi.upm.es/?id=gradoingenieriainformatica" target="_blank"> <img src="https://buscatuempleopublico.es/jsjobsdata/data/employer/comp_1119/logo/upm.png" width="130" height="100" alt="Logo UPM" /></a>
                 <h4>Grado en Ingeniería Informática</h4>
                 <h5>Universidad Politécnica de Madrid</h5>
@@ -93,9 +87,9 @@
         </section>
     </div>
     <div class="cursos" id="cursos">
-        <h3 class="courses" id="courses">Cursos</h3>
-        <section id="Cursos" class="coursesItems">
-            <article class="II2" id="II2">
+        <h3 class="element__courses" id="courses">Cursos</h3>
+        <section id="element__courses__articles" class="element__courses__articles">
+            <article class="courses__articles__first" id="courses__articles__first">
                 <h4>Platzi</h4>
                 <a href="https://platzi.com/cursos/git-github/" target="_blank">
                     <img src="https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png" width="50" height="50" alt="Git" />

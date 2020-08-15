@@ -15,25 +15,24 @@ body {
     Elements
 */
 .footer,
-.Pt,
-.myHeader,
+.element__portafolio__articles,
+.header,
 header,
-.listado,
-.techSection,
-.studiesItems,
-.coursesItems {
+.tech__images,
+.element__studies__articles,
+.element__courses__articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.II,
-.II2,
-.imageP,
-.imageP2,
-.MySqlGest,
-.DavidLucasWeb {
+.studies__articles__first,
+.courses__articles__first,
+.image__small,
+.image__long,
+.articles__long,
+.articles__small {
     background: #3d3d40;
     border-color: #5f5f5f;
     box-sizing: border-box;
@@ -42,10 +41,10 @@ header,
     border-radius: 10px;
 }
 
-.portafolio,
-.studies,
-.courses,
-.tech {
+.element__portafolio,
+.element__studies,
+.element__courses,
+.element__tech {
     background: #969393;
     border-color: #606064;
     box-sizing: border-box;
@@ -53,7 +52,7 @@ header,
     border-width: 1px;
     border-radius: 0px 20px 20px 0px;
 }
-.upButton {
+.button__up {
     width: 13vw;
     height: 13vw;
     position: absolute;
@@ -65,20 +64,20 @@ header,
 /*
     Header
 */
-.myHeader{
+.header{
     position: relative;
     animation-name: arriba;
     animation-duration:1.75s;
     animation-fill-mode:forwards;
 }
-.hero {
+.header__info {
     position: relative;
     animation-name: derecha;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-.myHeader,
-.hero {
+.header,
+.header__info {
     background: #231f20;
     border-color: #414141;
     box-sizing: border-box;
@@ -86,7 +85,7 @@ header,
     border-width: 1px;
     border-radius: 10px;
 }
-.myHeader {
+.header {
     max-width:90vw;
     width:100%;
     margin: 10px;
@@ -94,14 +93,14 @@ header,
     word-spacing: 150px;
     font-size: 50px;
 }
-.myHeader nav a{
+.header nav a{
     border-width: 1px;
     border-radius: 10px;
     border-color: #3d3d40;
     border-style: solid;
     padding: 3px;
 }
-.hero {
+.header__info {
     max-width: 670px;
     width: 100%;
     padding: 5px;
@@ -113,13 +112,13 @@ header,
 /*
     Portfolio
 */
-.portafolio {
+.element__portafolio {
     margin: 5px;
     max-width: 140px;
     width: 100%;
 }
 
-.DavidLucasWeb {
+.articles__small {
     max-width: 33vw;
     width: 100%;
     border-width: 1px;
@@ -128,7 +127,7 @@ header,
     animation-name: girarDerecha,derecha;
     animation-duration: 4s;
 }
-.MySqlGest {
+.articles__long {
     max-width: 50vw;
     width: 100%;
     border-width: 1px;
@@ -137,19 +136,19 @@ header,
     animation-name: girarIzquierda,izquierda;
     animation-duration: 4s;
 }
-.imageP {
+.image__small {
     max-width: 23vw;
     max-height: 27vw;
 }
 
-.imageP2 {
+.image__long {
     max-width: 33vw;
     max-height: 27vw;
 }
 /*
     Tech
 */
-.tech {
+.element__tech {
     position:relative;
     left:-50vw;
     margin: 0px;
@@ -157,13 +156,14 @@ header,
     width: 100%;
     
 }
-.imTech {
+.tech__images img {
     max-width: 150px;
     max-height: 150px;
     width: 100%;
     height: 100%;
+    margin: 2px;
 }
-.listado {
+.tech__images {
     background: #9d9d9d;
     border-color: #dedede;
     box-sizing: border-box;
@@ -173,30 +173,27 @@ header,
     margin: 20px;
     transform: scale(0,0);
 }
-.listado img {
-    margin: 2px;
-}
 /*
     Estudios y Cursos
 */
-.studies {
+.element__studies {
     position:relative;
     left:-50vw;
     max-width: 130px;
     width: 100%;
 }
-.II,
-.II2 {
+.studies__articles__first,
+.courses__articles__first {
     padding: 10px;
     border-width: 1px;
     margin: 20px;
     transform: scale(0,0);
 }
-.II img,
-.II2 img {
+.studies__articles__first img,
+.courses__articles__first img {
     padding: 3px;
 }
-.courses {
+.element__courses {
     position:relative;
     left:-50vw;
     max-width: 110px;
@@ -285,7 +282,7 @@ p {
 /*
     Llamando Animaciones
 */
-.portafolio{
+.element__portafolio{
     position: relative;
     animation-name: izquierda;
     animation-duration: 2.5s;
@@ -357,11 +354,11 @@ p {
 */
 
 @media screen and (max-width: 1592px) {
-    .myHeader{
+    .header{
         word-spacing:80px;
         font-size:45px;
     }
-    .logo {
+    .image__logo {
         max-width: 8vw;
         max-height: 8vw;
         width: 100%;
@@ -369,11 +366,11 @@ p {
     }
 }
 @media screen and (max-width: 1024px) {
-    .myHeader {
+    .header {
         word-spacing: 25px;
         font-size:35px;
     }
-    .logo{
+    .image__logo{
         max-width:70px;
         max-height:70px;
         width:100%;
@@ -385,87 +382,87 @@ p {
     .last{
         margin:0px;
     }
-    .logo{
+    .image__logo{
         padding-bottom:10px;
     }
-    .DavidLucasWeb,
-    .MySqlGest {
+    .articles__small,
+    .articles__long {
         max-width: 90vw;
         width: 100%;
     }
-    .hero {
+    .header__info {
         max-width: 80vw;
         width: 100%;
     }
-    .imageP {
+    .image__small {
         max-width: 45vw;
         max-height: 70vw;
         width: 100%;
         height: 100%;
     }
-    .imageP2 {
+    .image__long {
         max-width: 80vw;
         max-height: 65vw;
         width: 100%;
         height: 100%;
     }
-    .imTech {
+    .tech__images img {
         max-width: 25vw;
         max-height: 25vw;
         width: 100%;
         height: 100%;
     }
-    .myHeader {
+    .header {
         word-spacing: 10px;
         padding:8px;
     }
-    .myHeader a{
+    .header a{
         font-size:30px;
     }
-    .tech,
-    .portafolio,
-    .studies,
-    .courses{
+    .element__tech,
+    .element__portafolio,
+    .element__studies,
+    .element__courses{
         font-size:5vw;
     }
-    .portafolio {
+    .element__portafolio {
         max-width: 20vw;
         width: 100%;
     }
 
-    .studies {
+    .element__studies {
         max-width: 20vw;
         width: 100%;
     }
 
-    .courses {
+    .element__courses {
         max-width: 20vw;
         width: 100%;
     }
 
-    .tech {
+    .element__tech {
         max-width: 25vw;
         width: 100%;
     }
 }
 @media screen and (max-width:767px) {
-    .upButton {
+    .button__up {
         visibility: visible;
         z-index:1;
         animation-name: abajo;
         animation-duration: 6s;
     }
-    .myHeader {
+    .header {
         width: 90vw;
         height: auto;
         display: block;
         padding: 0px;
     }
-    .myHeader nav{
+    .header nav{
         width:100%;
         display:block;
     }
-    .myHeader nav a{
+    .header nav a{
         margin-left:-1px;
         margin-right:-1px;
         border-width:0.5px;
@@ -475,11 +472,11 @@ p {
         padding:0;
         border-radius:0px;
     }
-     .myHeader nav span a{
+     .header nav span a{
          padding:0px;
          border:none;
     }
-    .logo{
+    .image__logo{
         padding-bottom:0px;
         padding-top:10px;
     }
@@ -496,8 +493,8 @@ p {
     }
 
 @media screen and (max-width:425px){
-    .imageP,
-    .imageP2{
+    .image__small,
+    .image__long{
         margin:1px;
     }
     .imRRSS,
@@ -512,29 +509,29 @@ p {
         width: 45px;
         height:45px;
     }
-    .tech,
-    .portafolio,
-    .studies,
-    .courses {
+    .element__tech,
+    .element__portafolio,
+    .element__studies,
+    .element__courses {
         font-size: 10vw;
     }
 
-    .portafolio {
+    .element__portafolio {
         max-width: 36vw;
         width: 100%;
     }
 
-    .studies {
+    .element__studies {
         max-width: 34vw;
         width: 100%;
     }
 
-    .courses {
+    .element__courses {
         max-width: 30vw;
         width: 100%;
     }
 
-    .tech {
+    .element__tech {
         max-width: 47vw;
         width: 100%;
     }
